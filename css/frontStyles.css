@@ -1,0 +1,105 @@
+:root {
+    --color1:rgb(247, 104, 72);
+    --color2:rgb(247, 237, 235);
+    
+    --colorSelect0:rgb(255, 51, 11);
+    --colorSelect1:rgb(255, 51, 11);
+    --colorSelect2:rgb(243, 59, 59);
+    --colorSelect3:rgb(255, 101, 101);
+    --colorSelect4:rgb(255, 211, 14);
+    --colorSelect5:rgb(243, 217, 112);
+    --colorSelect6:rgb(120, 255, 10);
+    --colorSelect7:rgb(68, 255, 40);
+    --colorSelect8:rgb(63, 255, 143);
+    --colorSelect9:rgb(15, 170, 118);
+    --colorSelect10:rgb(6, 209, 255);
+    --colorSelect11:rgb(23, 42, 130);
+    --colorSelect12:rgb(60, 46, 255);
+
+
+ }
+canvas{
+    margin: 0;
+    padding: 0;
+    position: relative;
+   
+}
+.credit_viewer_front{
+    font-size: 1.25em !important;
+    display: block !important;
+    opacity: 1 !important;
+    position: relative !important;
+    top: -40px !important;
+    z-index: 5555555 !important;
+    left: 2.5% !important;
+    font-weight: 900 !important;
+    color: rgb(232, 100, 18) !important;
+}
+#model_viewer_product_container{
+    border: 5px solid var(--color1);
+    border-radius: 10px;
+    width: 50%;
+    left: 0%;
+    height: 50%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 50000000;
+    display: none;
+    top: 0%;
+}
+#model_viewer_product_container h1{
+    top: 70%;
+    position: absolute;
+    z-index: 5;
+
+}
+.model_viewer_product_button{
+    width: 150px;
+    height: 45px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color:var(--color1);
+    color: var(--color2);
+    line-height: 40px;
+    margin: 4% 0%;
+    position: relative;
+    transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: scale(1);
+    cursor: pointer;
+}
+.model_viewer_product_button:hover{
+    transform: scale(.975);
+}
+.color_product_viewer_box{
+    width: 50%;
+    height: 10vh;
+    position: relative;
+    display: block;
+}
+.color_product_viewer_box_single{
+    width: 20%;
+    position: relative;
+    height: 3vh;
+    margin: 0 1%;
+    display: inline-block;
+    cursor: pointer;
+}
+.color_product_viewer_box_singled{
+    border-radius: 8px;
+    width: 15%;
+    position: relative;
+    height: 3vh;
+    margin: 0 1%;
+    /* display: inline-block; */
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #model_viewer_product_container{
+        height: 20%;
+        width: 90%;
+        top: 15%;
+    }
+  }

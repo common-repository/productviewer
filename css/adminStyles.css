@@ -1,0 +1,172 @@
+:root {
+    --color1:rgb(247, 104, 72);
+    --color2:rgb(247, 237, 235);
+    --color3:rgb(60, 59, 59);
+
+        
+    --colorSelect0:rgb(255, 51, 11);
+    --colorSelect1:rgb(255, 51, 11);
+    --colorSelect2:rgb(243, 59, 59);
+    --colorSelect3:rgb(255, 101, 101);
+    --colorSelect4:rgb(255, 211, 14);
+    --colorSelect5:rgb(243, 217, 112);
+    --colorSelect6:rgb(120, 255, 10);
+    --colorSelect7:rgb(68, 255, 40);
+    --colorSelect8:rgb(63, 255, 143);
+    --colorSelect9:rgb(15, 170, 118);
+    --colorSelect10:rgb(6, 209, 255);
+    --colorSelect11:rgb(23, 42, 130);
+    --colorSelect12:rgb(60, 46, 255);
+ }
+ .checks{
+     width: 100%;
+     height: 100%;
+     z-index: 54;
+     position: relative;
+     display: block;
+     top: 0%;
+     display: none;
+     left: 0%;
+ }
+ .color_product_viewer_box{
+     margin: 2% 0%;
+     left: 5%;
+    width: 40%;
+    height: 10vh;
+    position: relative;
+    display: block;
+}
+ .color_product_viewer_box_single{
+     cursor: pointer;
+    width: 10%;
+    position: relative;
+    height: 3vh;
+    margin: 0 1%;
+    display: inline-block;
+}
+.color_product_viewer_box_singled{
+    border-radius: 2px;
+    width: 10%;
+    position: relative;
+    height: 3vh;
+    margin: 0 1%;
+    display: inline-block;
+}
+.color_product_viewer_box_single0{
+    background-color: var(--colorSelect0);
+}
+.color_product_viewer_box_single1{
+    background-color: var(--colorSelect1);
+}
+.color_product_viewer_box_single2{
+    background-color: var(--colorSelect2);
+}
+.color_product_viewer_box_single3{
+    background-color: var(--colorSelect3);
+}
+.color_product_viewer_box_single4{
+    background-color: var(--colorSelect4);
+}
+.color_product_viewer_box_single5{
+    background-color: var(--colorSelect5);
+}
+.color_product_viewer_box_single6{
+    background-color: var(--colorSelect6);
+}
+.color_product_viewer_box_single7{
+    background-color: var(--colorSelect7);
+}
+.color_product_viewer_box_single8{
+    background-color: var(--colorSelect8);
+}
+.color_product_viewer_box_single9{
+    background-color: var(--colorSelect9);
+}
+.color_product_viewer_box_single10{
+    background-color: var(--colorSelect10);
+}
+.color_product_viewer_box_single11{
+    background-color: var(--colorSelect11);
+}
+.color_product_viewer_box_single12{
+    background-color: var(--colorSelect12);
+}
+.color_product_viewer_box_single13{
+    background-color: var(--colorSelect1);
+}
+
+.viewer_model_childs{
+    position: relative;
+    display: block;
+    left: 5%;
+}
+.viewer_model_childs li{
+ cursor: pointer;
+}
+ canvas{
+     outline: none !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15%;
+}
+.model_colors_field{
+    display: none !important;
+} 
+.model_part_color_field{
+    display: none !important;
+} 
+.model_product_viewer{
+    background-color:var(--color1);
+    padding: 2% 0%;
+}
+.model_product_viewer .options_group{
+    color: var(--color2);
+    font-size: 1.3em;
+}
+.model_product_viewer  input[type=text]{
+    height: 45px;
+    border:none !important;
+}
+.credit_link_viewer{
+    color: var(--color3) !important;
+    text-decoration: none !important;
+    position: relative !important;
+    width: 100% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+}
+.maple_wp_c{
+    color: var(--color2);
+}
+.tutorial_vid{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    display: block;
+    background-image: url(tutorial.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+}
+.maple_logo{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    background-image: url(LogoD.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 5%;
+    bottom: 5%;
+}
+.desc{
+    position:relative;display:block;
+    margin: 4% 0%;
+    font-size: 1.45em;
+}
+.desc_note{
+    width: 40%;
+    font-weight: 400;
+    margin: 2% 0%;
+    font-size: 1.45em;
+}
